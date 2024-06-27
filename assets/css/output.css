@@ -553,3 +553,43 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+
+/* uber-move font */
+
+@font-face {
+  font-family: 'Uber Move';
+
+  src: url('/fonts/UberMove-Regular.woff2') format('woff2'),
+         url('/fonts/UberMove-Regular.woff') format('woff');
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Uber Move';
+
+  src: url('/fonts/UberMove-Bold.woff2') format('woff2'),
+         url('/fonts/UberMove-Bold.woff') format('woff');
+
+  font-weight: bold;
+
+  font-style: normal;
+}
+
+/* google icons */
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+body {
+  font-family: 'Uber Move', sans-serif;
+}
+  
+  
