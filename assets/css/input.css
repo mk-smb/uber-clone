@@ -44,20 +44,23 @@ font-family: 'Uber Move', sans-serif;
     @apply px-3 py-2 transition-all duration-500 hover:bg-slate-200 hover:text-slate-500;
   }
 
-  /* .lineAnimation {
+  .lineAnimation {
     display: inline-block;
     color: #000;
     text-decoration: none;
-    height: 2px;
-    width: fit-content;
-    background: #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
+    /* height: 1px; */
+    /* width: fit-content; */
+    /* background: #ccc; */
 }
 
 .lineAnimation::after {
     content: '';
     display: block;
     width: 0;
-    height: 2px;
+    height: 1px;
+    /* margin-bottom: 5px; */
     background: #000;
     transition: width 0.5s;
 }
@@ -65,7 +68,7 @@ font-family: 'Uber Move', sans-serif;
 .lineAnimation:hover::after {
     width: 100%;
     transition: width 0.5s;
-} */
+}
 }
   
   
